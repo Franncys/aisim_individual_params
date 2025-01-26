@@ -1,29 +1,22 @@
 sensor_kit_base_link:
-  camera:
+  traffic_light_left_camera/camera_link:
     x: -4.0
     y: 0.0
     z: 1.5
     roll: 0.0
-    pitch: 5.0
+    pitch: 0.0872665
     yaw: 0.0
-  lidar:
+  velodyne_top_base_link:
     x: 0.0
     y: 0.0
     z: 3.0
     roll: 0.0
     pitch: 0.0
     yaw: 0.0
-  clock:
+  gnss_link:
     x: 0.0
     y: 0.0
     z: 0.0
-    roll: 0.0
-    pitch: 0.0
-    yaw: 0.0
-  gnss_link:
-    x: -0.1
-    y: 0.0
-    z: -0.2
     roll: 0.0
     pitch: 0.0
     yaw: 0.0
@@ -31,6 +24,6 @@ sensor_kit_base_link:
     x: 0.0
     y: 0.0
     z: 0.0
-    roll: 3.14159265359
+    roll: 0.0
     pitch: 0.0
-    yaw: 3.14159265359
+    yaw: 0.0
